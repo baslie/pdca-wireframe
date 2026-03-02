@@ -1,0 +1,1 @@
+export { KatalogTreningov } from './KatalogTreningov'

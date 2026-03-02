@@ -1,0 +1,1 @@
+export { GlavnayaStranitsa } from './GlavnayaStranitsa'

@@ -1,0 +1,1 @@
+export { KorporativnyeProgrammy } from './KorporativnyeProgrammy'

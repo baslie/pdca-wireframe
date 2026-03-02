@@ -1,0 +1,287 @@
+{
+  "_meta": {
+    "models": {
+      "category": "Направление тренингов для фильтрации каталога. 6 категорий.",
+      "training": "Образовательная программа (тренинг) с названием, описанием, форматом, уровнем аудитории и ключевым результатом."
+    },
+    "relationships": [
+      "training принадлежит category через поле categoryId"
+    ]
+  },
+  "categories": [
+    {
+      "id": "lean",
+      "name": "Кайдзен и Бережливое производство",
+      "slug": "kajdzen-berezhlivoe-proizvodstvo"
+    },
+    {
+      "id": "safety",
+      "name": "Безопасность",
+      "slug": "bezopasnost"
+    },
+    {
+      "id": "sales",
+      "name": "Продажи и переговоры",
+      "slug": "prodazhi-i-peregovory"
+    },
+    {
+      "id": "leadership",
+      "name": "Управление и лидерство",
+      "slug": "upravlenie-i-liderstvo"
+    },
+    {
+      "id": "personal",
+      "name": "Персональная эффективность",
+      "slug": "personalnaya-effektivnost"
+    },
+    {
+      "id": "communication",
+      "name": "Коммуникации и фасилитация",
+      "slug": "kommunikatsii-i-fasilitatsiya"
+    }
+  ],
+  "trainings": [
+    {
+      "id": "t-01",
+      "title": "Основы бережливого производства (Lean)",
+      "slug": "osnovy-berezhlivogo-proizvodstva",
+      "categoryId": "lean",
+      "description": "Комплексное введение в философию и инструменты Lean для производственных команд",
+      "duration": "2 дня",
+      "format": ["offline", "online"],
+      "level": "all",
+      "keyResult": "Участники определяют 7 видов потерь и составляют план улучшений на своём участке"
+    },
+    {
+      "id": "t-02",
+      "title": "Картирование потока создания ценности (VSM)",
+      "slug": "kartirovanie-potoka-sozdaniya-tsennosti",
+      "categoryId": "lean",
+      "description": "Практический тренинг по анализу и оптимизации потоков создания ценности",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "managers",
+      "keyResult": "Участники строят карту текущего и целевого состояния реального процесса"
+    },
+    {
+      "id": "t-03",
+      "title": "SMED — быстрая переналадка",
+      "slug": "smed-bystraya-pereanaladka",
+      "categoryId": "lean",
+      "description": "Методика сокращения времени переналадки оборудования",
+      "duration": "1 день",
+      "format": ["offline"],
+      "level": "line-staff",
+      "keyResult": "Сокращение времени переналадки на 30–50% на пилотном оборудовании"
+    },
+    {
+      "id": "t-04",
+      "title": "Кайдзен-проекты: от идеи до результата",
+      "slug": "kajdzen-proekty-ot-idei-do-rezultata",
+      "categoryId": "lean",
+      "description": "Система непрерывных улучшений через малые проекты",
+      "duration": "2 дня",
+      "format": ["offline", "online"],
+      "level": "all",
+      "keyResult": "Каждый участник запускает кайдзен-проект с измеримым эффектом на своём участке"
+    },
+    {
+      "id": "t-05",
+      "title": "Поведенческий аудит безопасности (BBS)",
+      "slug": "povedencheskij-audit-bezopasnosti",
+      "categoryId": "safety",
+      "description": "Методика наблюдения и коррекции небезопасного поведения на производстве",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "managers",
+      "keyResult": "Руководители проводят самостоятельные аудиты и дают обратную связь по стандарту"
+    },
+    {
+      "id": "t-06",
+      "title": "Культура безопасности: от нуля к системе",
+      "slug": "kultura-bezopasnosti-ot-nulya-k-sisteme",
+      "categoryId": "safety",
+      "description": "Построение системной культуры безопасности от уровня реагирования к проактивному управлению",
+      "duration": "2 дня",
+      "format": ["offline", "online"],
+      "level": "managers",
+      "keyResult": "Разработан план трансформации культуры безопасности предприятия на 12 месяцев"
+    },
+    {
+      "id": "t-07",
+      "title": "TWI — обучение на рабочем месте",
+      "slug": "twi-obuchenie-na-rabochem-meste",
+      "categoryId": "safety",
+      "description": "Стандартизированный метод обучения сотрудников безопасным приёмам работы",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "line-staff",
+      "keyResult": "Наставники владеют 4-шаговым методом TWI и проводят обучение по стандарту"
+    },
+    {
+      "id": "t-08",
+      "title": "Расследование инцидентов и корневой анализ",
+      "slug": "rassledovanie-intsidentov",
+      "categoryId": "safety",
+      "description": "Системный подход к расследованию происшествий и предотвращению повторения. Тренинг охватывает методики 5 Почему, диаграмму Ишикавы и системный анализ коренных причин с практикой на реальных кейсах предприятия",
+      "duration": "1 день",
+      "format": ["offline", "online"],
+      "level": "managers",
+      "keyResult": "Участники проводят полное расследование инцидента по стандартной методике"
+    },
+    {
+      "id": "t-09",
+      "title": "B2B-продажи: от холодного контакта до сделки",
+      "slug": "b2b-prodazhi-ot-holodnogo-kontakta",
+      "categoryId": "sales",
+      "description": "Полный цикл B2B-продаж: поиск клиентов, выход на ЛПР, ведение переговоров, закрытие",
+      "duration": "2 дня",
+      "format": ["offline", "online"],
+      "level": "office",
+      "keyResult": "Менеджеры увеличивают конверсию из первого контакта в встречу на 25%"
+    },
+    {
+      "id": "t-10",
+      "title": "Переговоры по Гарварду",
+      "slug": "peregovory-po-garvardu",
+      "categoryId": "sales",
+      "description": "Принципиальные переговоры: win-win стратегии для сложных B2B-ситуаций",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "managers",
+      "keyResult": "Участники владеют техникой BATNA и проводят переговоры без уступок по цене"
+    },
+    {
+      "id": "t-11",
+      "title": "Управление ключевыми клиентами (KAM)",
+      "slug": "upravlenie-klyuchevymi-klientami",
+      "categoryId": "sales",
+      "description": "Стратегии развития и удержания крупнейших клиентов компании",
+      "duration": "1 день",
+      "format": ["offline", "online"],
+      "level": "managers",
+      "keyResult": "Составлен план развития top-10 клиентов с конкретными действиями на квартал"
+    },
+    {
+      "id": "t-12",
+      "title": "Лидерство на производстве",
+      "slug": "liderstvo-na-proizvodstve",
+      "categoryId": "leadership",
+      "description": "Развитие управленческих навыков для руководителей производственных подразделений",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "managers",
+      "keyResult": "Руководители внедряют ежедневные управленческие ритуалы на своих участках"
+    },
+    {
+      "id": "t-13",
+      "title": "Управление изменениями",
+      "slug": "upravlenie-izmeneniyami",
+      "categoryId": "leadership",
+      "description": "Как внедрять изменения в организации и преодолевать сопротивление сотрудников",
+      "duration": "2 дня",
+      "format": ["offline", "online"],
+      "level": "managers",
+      "keyResult": "Разработана дорожная карта изменений с планом коммуникации и управлением рисками"
+    },
+    {
+      "id": "t-14",
+      "title": "Развитие управленческой команды",
+      "slug": "razvitie-upravlencheskoj-komandy",
+      "categoryId": "leadership",
+      "description": "Командная сессия для топ-менеджмента: стратегическое выравнивание и синхронизация",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "managers",
+      "keyResult": "Команда выравнивает приоритеты и договаривается о правилах взаимодействия"
+    },
+    {
+      "id": "t-15",
+      "title": "Наставничество и развитие подчинённых",
+      "slug": "nastavnichestvo-i-razvitie-podchinionnykh",
+      "categoryId": "leadership",
+      "description": "Инструменты наставничества, обратной связи и развития сотрудников для руководителей",
+      "duration": "1 день",
+      "format": ["offline", "online"],
+      "level": "managers",
+      "keyResult": "Руководители проводят развивающие беседы и составляют ИПР для подчинённых"
+    },
+    {
+      "id": "t-16",
+      "title": "Тайм-менеджмент и приоритизация",
+      "slug": "tajm-menedzhment-i-prioritizatsiya",
+      "categoryId": "personal",
+      "description": "Практические инструменты управления временем и фокусировки на главном",
+      "duration": "1 день",
+      "format": ["offline", "online"],
+      "level": "all",
+      "keyResult": "Участники внедряют систему планирования и сокращают потери времени на 20%"
+    },
+    {
+      "id": "t-17",
+      "title": "Профессиональное решение проблем (A3)",
+      "slug": "professionalnoe-reshenie-problem-a3",
+      "categoryId": "personal",
+      "description": "Структурированный подход к решению сложных производственных и бизнес-задач",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "managers",
+      "keyResult": "Участники решают реальную проблему предприятия по методике A3 за время тренинга"
+    },
+    {
+      "id": "t-18",
+      "title": "Стресс-менеджмент для руководителей",
+      "slug": "stress-menedzhment-dlya-rukovoditelej",
+      "categoryId": "personal",
+      "description": "Управление стрессом и эмоциональной устойчивостью в условиях высокой нагрузки",
+      "duration": "1 день",
+      "format": ["online"],
+      "level": "managers",
+      "keyResult": "Руководители владеют техниками быстрого восстановления и профилактики выгорания"
+    },
+    {
+      "id": "t-19",
+      "title": "Фасилитация совещаний и рабочих сессий",
+      "slug": "fasilitatsiya-soveshchanij",
+      "categoryId": "communication",
+      "description": "Техники проведения результативных совещаний и стратегических сессий",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "managers",
+      "keyResult": "Участники проводят совещание по стандарту за 30 минут с конкретными решениями"
+    },
+    {
+      "id": "t-20",
+      "title": "Эффективные коммуникации в команде",
+      "slug": "effektivnye-kommunikatsii-v-komande",
+      "categoryId": "communication",
+      "description": "Развитие навыков горизонтальной коммуникации и командного взаимодействия",
+      "duration": "1 день",
+      "format": ["offline", "online"],
+      "level": "all",
+      "keyResult": "Команда договаривается о стандартах коммуникации и снижает конфликтность"
+    },
+    {
+      "id": "t-21",
+      "title": "Публичные выступления и презентации",
+      "slug": "publichnye-vystupleniya-i-prezentatsii",
+      "categoryId": "communication",
+      "description": "Подготовка и проведение убедительных презентаций для внутренней и внешней аудитории",
+      "duration": "2 дня",
+      "format": ["offline"],
+      "level": "office",
+      "keyResult": "Участники готовят и проводят 5-минутную презентацию проекта перед экспертной комиссией"
+    },
+    {
+      "id": "t-22",
+      "title": "Обратная связь как инструмент управления",
+      "slug": "obratnaya-svyaz-kak-instrument-upravleniya",
+      "categoryId": "communication",
+      "description": "Модели и техники конструктивной обратной связи для руководителей и HR",
+      "duration": "1 день",
+      "format": [],
+      "level": "managers",
+      "keyResult": "Руководители дают обратную связь по модели SBI и BOFF в повседневной практике"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+/*
+ * PDCA Consulting — Design Tokens
+ *
+ * CSS custom properties для фирменных цветов и типографики.
+ * Подключите этот файл глобально в проекте.
+ *
+ * Цвета: coral-red (primary), dark-blue (secondary), slate (neutral)
+ * Шрифты: Manrope (heading + body), IBM Plex Mono (mono)
+ */
+
+:root {
+  /* ========================================
+   * Brand Colors
+   * ======================================== */
+  --color-primary: #e84249;
+  --color-primary-hover: #d63a40;
+  --color-primary-light: #fce8e9;
+  --color-primary-dark: #b8343a;
+
+  --color-secondary: #003154;
+  --color-secondary-hover: #002844;
+  --color-secondary-light: #e6edf2;
+  --color-secondary-dark: #001f35;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* ========================================
+   * Neutral Palette (Slate)
+   * ======================================== */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+  --color-neutral-950: #020617;
+
+  /* ========================================
+   * Typography
+   * ======================================== */
+  --font-heading: 'Manrope', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* ========================================
+   * Font Weights
+   * ======================================== */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* ========================================
+   * Font Sizes (fluid scale)
+   * ======================================== */
+  --text-xs: 0.75rem;      /* 12px */
+  --text-sm: 0.875rem;     /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;     /* 18px */
+  --text-xl: 1.25rem;      /* 20px */
+  --text-2xl: 1.5rem;      /* 24px */
+  --text-3xl: 1.875rem;    /* 30px */
+  --text-4xl: 2.25rem;     /* 36px */
+  --text-5xl: 3rem;        /* 48px */
+  --text-6xl: 3.75rem;     /* 60px */
+
+  /* ========================================
+   * Spacing & Layout
+   * ======================================== */
+  --header-height-desktop: 72px;
+  --header-height-mobile: 64px;
+  --content-max-width: 1280px;
+  --section-padding-y: 5rem;    /* 80px */
+  --section-padding-x: 1.5rem;  /* 24px */
+
+  /* ========================================
+   * Shadows
+   * ======================================== */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-header: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  /* ========================================
+   * Transitions
+   * ======================================== */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  /* ========================================
+   * Border Radius
+   * ======================================== */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+}
